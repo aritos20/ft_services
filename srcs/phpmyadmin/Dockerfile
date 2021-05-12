@@ -17,7 +17,5 @@ COPY 	    nginx.conf /etc/nginx/nginx.conf
 
 EXPOSE      5000
 
-#RUN         echo "$cfg['Servers'][$i]['host'] = '$MYSQL_IP';" >> /etc/phpmyadmin/config.inc.php
-
 ENTRYPOINT  php-fpm7 && \
             /usr/sbin/nginx -g "daemon off;"
