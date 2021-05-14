@@ -18,6 +18,9 @@ RUN openssl req -x509 -nodes -days 365 \
 
 #archivo de configuración
 COPY nginx.conf /etc/nginx/nginx.conf
+COPY assets /www/assets
+COPY scripts.js /www
+COPY styles.css /www
 COPY index.html /www
 
 #exponer los puertos
