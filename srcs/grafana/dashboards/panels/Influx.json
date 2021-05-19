@@ -15,7 +15,7 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "id": 2,
+  "id": 3,
   "links": [],
   "panels": [
     {
@@ -102,7 +102,7 @@
             {
               "key": "container_name",
               "operator": "=",
-              "value": "grafana"
+              "value": "influx"
             }
           ]
         }
@@ -111,7 +111,7 @@
       "timeFrom": null,
       "timeRegions": [],
       "timeShift": null,
-      "title": "grafana",
+      "title": "Influx",
       "tooltip": {
         "shared": true,
         "sort": 0,
@@ -161,7 +161,7 @@
   },
   "timepicker": {},
   "timezone": "",
-  "title": "grafana",
-  "uid": "aU9TNnqMz",
+  "title": "Influx",
+  "uid": "CtwwNnqGk",
   "version": 1
 }
