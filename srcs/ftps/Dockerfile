@@ -7,7 +7,7 @@ RUN     apk update && \
 
 RUN 	mkdir -p /etc/ftps/admin && \
 		adduser --home=/etc/ftps/admin -D admin && \
-		echo "admin:admin" | chpasswd
+		echo "admin:1010" | chpasswd
 
 RUN     chmod 700 /etc/ssl/private && \
 	    openssl req -x509 -nodes -days 365 \

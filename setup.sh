@@ -43,12 +43,16 @@ kubectl apply -f srcs/phpmyadmin.yaml
 printf "🛠 Phpmyadmin Done!\n"
 kubectl apply -f srcs/ftps.yaml
 printf "🛠 ftps Done!\n"
-kubectl apply -f srcs/telegraf.yaml
-printf "🛠 telegraf Done!\n"
 kubectl apply -f srcs/influxdb.yaml
 printf "🛠 influxdb Done!\n"
+kubectl apply -f srcs/grafana-config.yaml
+printf "🛠 grafana-config Done!\n"
 kubectl apply -f srcs/grafana.yaml
 printf "🛠 grafana Done!\n"
+kubectl apply -f srcs/telegraf-config.yaml
+printf "🛠 telegraf-config Done!\n"
+kubectl apply -f srcs/telegraf.yaml
+printf "🛠 telegraf Done!\n"
 printf "✅ Services Deployed!\n"
 
 # Se inicia el dashboard de minikube
